@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", "sans-serif";
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #222;
+    width: 600px;
+    height: 700px;
+
+}
+
+.card {
+    width: 90%;
+    max-width: 550px;
+    width: 420px;
+    /* background: linear-gradient(135deg, #00feba, #5b548a); */
+    /* background: linear-gradient(135deg, rgb(207, 109, 212), #f79253); */
+    background: linear-gradient(135deg, #f8f5f5, #0e0e0e);
+    color: #fff;
+    /* margin: 100px auto 0; */
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    position: absolute;
+    margin-left: 510px;
+    
+    
+
+
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+/* 
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    
+} */
+
+
+
+
+
+.quit-button {
+    width: 70px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background: linear-gradient(135deg, rgb(107, 29, 216), #c4108e);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 80px;
+    font-size: 1.4em;
+    
+    
+}
+
+.friends {
+    width: 70px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background: linear-gradient(135deg, rgb(107, 29, 216), #c4108e);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 1.4em;
+    
+    margin-right: 70px;
+}
+
+.earn {
+    width: 70px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background: linear-gradient(135deg, rgb(107, 29, 216), #c4108e);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 1.4em;
+    
+}
+
+.multiple {
+    width: 300px;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(135deg, #2b282e, #4d4c65);
+    
+    border-radius: 30px;
+    position: relative;
+    margin-top: 580px;
+    
+    
+
+
+}
